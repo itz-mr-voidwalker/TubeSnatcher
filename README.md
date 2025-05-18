@@ -63,7 +63,7 @@ Because this app has better memory than your brain when in exam. 💅
     ```
 ## Project Structure 📂
 ```
-TubeSnatcher/                  # Your main project folder, naam chesthamu 
+TubeSnatcher/                  # Your main project folder
 │
 ├── main.py                   # The big boss, your app’s entry point
 ├── README.md                 # Where you roast your app & brag about it
