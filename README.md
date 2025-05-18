@@ -51,14 +51,30 @@ Because this app has better memory than your brain when in exam. 💅
    cd TubeSnatcher
    ```
 
-2. Install dependencies, coz nothing works out of the box anymore:
+2. Extract ffmpeg zip as Extract here Option (important)
+
+3. Install dependencies, coz nothing works out of the box anymore:
    ```
    pip install -r requirements.txt
    ``` 
-3. Run the thing
+4. Run the thing
     ```
     python main.py
     ```
+## Project Structure 📂
+```
+TubeSnatcher/                  # Your main project folder, naam chesthamu 
+│
+├── main.py                   # The big boss, your app’s entry point
+├── README.md                 # Where you roast your app & brag about it
+├── requirements.txt          # Python dependencies, so others don’t suffer like you
+└── ffmpeg-7.1.1-essentials_build/  # The ffmpeg toolkit folder — because you don’t do lazy downloads
+     ├── bin/
+     ├── doc/
+     ├── licenses/
+     └── (other ffmpeg essentials inside here)
+```
+
 # 📦 Requirements
 - Python 3.9+ (anything older is basically medieval)
 
